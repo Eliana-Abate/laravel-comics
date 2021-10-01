@@ -13,7 +13,7 @@
                     <h3>FOLLOW US</h3>
                     <ul class="special-row-3">
                         <li class="clickable"><img src="{{asset('images/footer-facebook.png')}}" alt="facebook"></li>
-                        <li class="clickable<img src="{{asset('images/footer-twitter.png')}}" alt="twitter"></li>
+                        <li class="clickable"><img src="{{asset('images/footer-twitter.png')}}" alt="twitter"></li>
                         <li class="clickable"><img src="{{asset('images/footer-youtube.png')}}" alt="youtube"></li>
                         <li class="clickable"><img src="{{asset('images/footer-pinterest.png')}}" alt="pinterest"></li>
                         <li class="clickable"><img src="{{asset('images/footer-periscope.png')}}" alt="periscope"></li>
