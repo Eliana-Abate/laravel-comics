@@ -9,6 +9,7 @@
 </head>
 <body>
     @include('includes.header')
+    @include('includes.hero')
     <main>
         @yield('content')
     </main>

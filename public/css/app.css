@@ -105,6 +105,14 @@ header ul li a.active {
   color: #0282F9;
 }
 
+#jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  height: 400px;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #footer-links {
   background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
