@@ -1,0 +1,74 @@
+//UTILITIES 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+//Row
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.special-row-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.special-row-3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+//Columns
+.col-20 {
+    flex-basis: calc(100% * 20 / 100);
+}
+
+.col-25 {
+    flex-basis: calc(100% * 25 / 100);
+}
+
+.col-40 {
+    flex-basis: calc(100% * 40 / 100);
+}
+  
+.col-50 {
+    flex-basis: calc(100% * 50 / 100);
+}
+
+.col-60 {
+    flex-basis: calc(100% * 60 / 100);
+}
+
+
+//Height
+.h-100 {
+    height: 100%;
+}
+
+
+//Margin 
+.mg-top-10 {
+    margin-top: 10px;
+}
+
+.mg-top-20 {
+    margin-top: 20px;
+}
+
+
+//Pointer
+.clickable {
+    cursor: pointer;
+}
+
+.active {
+    color: #0282F9;
+}
+
+
+
