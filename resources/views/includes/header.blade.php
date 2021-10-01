@@ -13,6 +13,9 @@
                             <li>
                                 <a href="#">Comics</a>
                             </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
