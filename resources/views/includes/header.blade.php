@@ -4,7 +4,7 @@
             <div class="row h-100">
 
                 <div id="header-logo" class="col-40 row">
-                    <img src="" alt="dc-logo">
+                    <img src="{{asset('images/dc-logo.png')}}" alt="dc-logo">
                 </div>
 
                 <div class="col-60">
