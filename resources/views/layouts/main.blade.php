@@ -22,9 +22,5 @@
         @include('includes.footer')
         @include('includes.social')
     </footer>
-
-    
-    
-    
 </body>
 </html>
