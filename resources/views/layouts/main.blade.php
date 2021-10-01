@@ -15,7 +15,7 @@
         @yield('content')
     </main>
 
-    @include('includes.dc_gadgets')
+    
     @include('includes.footer')
     @include('includes.social')
     

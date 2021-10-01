@@ -11,10 +11,10 @@
                     <nav>
                         <ul class="row">
                             <li>
-                                <a href="{{route('comics')}}">Comics</a>
+                                <a href="{{route('home')}}">Home</a>
                             </li>
                             <li>
-                                <a href="#">Characters</a>
+                                <a href="{{route('comics')}}">Comics</a>
                             </li>
                         </ul>
                     </nav>

@@ -2,8 +2,10 @@
   margin: 0;
   box-sizing: border-box;
   background-color: #000;
-  height: 100vh;
   font-family: "Open Sans Condensed", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 ul {
