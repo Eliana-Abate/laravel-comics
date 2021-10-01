@@ -1,5 +1,4 @@
-<header>
-    <section id="main-header">
+<section id="main-header">
         <div class="container h-100">
             <div class="row h-100">
 
@@ -22,4 +21,3 @@
             </div> 
         </div>
     </section>
-</header>

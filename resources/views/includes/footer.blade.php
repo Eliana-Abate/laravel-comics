@@ -1,5 +1,4 @@
-<footer>
-    <section id="footer-links">
+<section id="footer-links">
         <div class="container h-100">
             <div class="row h-100">
 
@@ -60,4 +59,3 @@
             </div> 
         </div>
     </section>
-</footer>
