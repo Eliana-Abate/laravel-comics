@@ -14,6 +14,7 @@
     </main>
 
     @include('includes.footer')
+    @include('includes.social')
     
 </body>
 </html>
