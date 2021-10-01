@@ -77,6 +77,11 @@ a {
   color: #0282F9;
 }
 
+#dc-upper-links {
+  height: 35px;
+  background-color: #0282F9;
+}
+
 #main-header {
   background-color: #fff;
   height: 120px;

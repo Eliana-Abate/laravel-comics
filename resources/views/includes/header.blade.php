@@ -11,7 +11,7 @@
                     <nav>
                         <ul class="row">
                             <li>
-                                <a href="#">Comics</a>
+                                <a href="{{route('comics')}}">Comics</a>
                             </li>
                             <li>
                                 <a href="#">Characters</a>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
+    @include('includes.dc_upper_links')
     @include('includes.header')
     @include('includes.hero')
     <main>
