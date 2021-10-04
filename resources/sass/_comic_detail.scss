@@ -24,3 +24,24 @@
         margin-top: -5px;
     }
 }
+
+
+.blue-spacer {
+    height: 90px;
+    width: 100%;
+    background-color: #0282F9;
+    position: relative;
+    .comic-poster {
+        position: absolute;
+        bottom: 20px;
+        background-color: #00a9d9;
+        border: 1px solid white;
+        .gallery-text {
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 0.8em;
+            padding: 5px;
+        }
+    }   
+}

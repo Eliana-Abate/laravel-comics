@@ -67,7 +67,6 @@ a {
   display: flex;
   flex-direction: column;
   text-align: right;
-  align-items: stretch;
   color: #464646;
 }
 
@@ -115,12 +114,12 @@ a {
   margin-right: 10px;
 }
 
-.pt-70 {
-  padding-top: 70px;
+.pb-80 {
+  padding-bottom: 80px;
 }
 
-.pb-70 {
-  padding-bottom: 70px;
+.pt-50 {
+  padding-top: 50px;
 }
 
 .py-50 {
@@ -266,6 +265,26 @@ a {
 }
 .green-table .fas.fa-sort-down {
   margin-top: -5px;
+}
+
+.blue-spacer {
+  height: 90px;
+  width: 100%;
+  background-color: #0282F9;
+  position: relative;
+}
+.blue-spacer .comic-poster {
+  position: absolute;
+  bottom: 20px;
+  background-color: #00a9d9;
+  border: 1px solid white;
+}
+.blue-spacer .comic-poster .gallery-text {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
 }
 
 #dc-gadgets {

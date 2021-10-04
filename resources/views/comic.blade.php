@@ -3,8 +3,19 @@
 @section('title') {{$comic['series']}} @endsection
 
 @section('content')
+    <div class="blue-spacer">
+        <div class="container-stretch">
+            <div class="comic-poster">
+                <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
+                <div class="gallery-text">VIEW GALLERY</div>
+            </div>
+        </div>
+        
+        
+    </div>
+
     <div class="container-stretch">
-        <div class="row pb-70">
+        <div class="row pt-50 pb-80">
 
             <div class="col-65 row-2 pt-70">
                 <h1 class="comic-title">{{$comic['title']}}</h1>
