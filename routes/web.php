@@ -25,14 +25,11 @@ Route::get('/comics/{id}', function ($id) {
     $fumetti = config('comics');
 
     if(is_numeric($id) && $id >= 0 && $id < count($fumetti)) {
-        $fumetto = $fumetti[$id];
-        return view('comic', ['comic' => $fumetti]);
+        $comic = $fumetti[$id];
+        return view('comic', ['comic' => $comic]);
     } else {
         abort('404');
     }
-
-    
-    
 })->name('comic');
 
 

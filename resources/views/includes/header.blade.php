@@ -15,9 +15,7 @@
                             <li>
                                 <a href="{{route('comics')}}">Comics</a>
                             </li>
-                            <li>
-                                <a href="{{route('comic_details')}}">Comic Details</a>
-                            </li>
+                            
                         </ul>
                     </nav>
                 </div>
