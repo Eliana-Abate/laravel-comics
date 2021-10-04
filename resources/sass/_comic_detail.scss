@@ -1,0 +1,20 @@
+.comic-title {
+    text-transform: uppercase;
+    color: #094564;
+}
+
+.comic-text {
+    color: #918f8f;
+}
+
+.green-table {
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: #55ba59;
+    box-shadow: 0 4px 3px -3px black;
+    .bord-right {
+        border-right: 1px solid #3f8c43;
+        height: 50px;
+    }
+}

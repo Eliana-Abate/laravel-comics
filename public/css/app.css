@@ -52,6 +52,10 @@ a {
   flex-basis: 25%;
 }
 
+.col-35 {
+  flex-basis: 35%;
+}
+
 .col-40 {
   flex-basis: 40%;
 }
@@ -62,6 +66,10 @@ a {
 
 .col-60 {
   flex-basis: 60%;
+}
+
+.col-65 {
+  flex-basis: 65%;
 }
 
 .h-100 {
@@ -157,6 +165,9 @@ a {
   -o-object-position: top;
      object-position: top;
 }
+.series-grid .card img:hover {
+  box-shadow: 0 0 1em white;
+}
 
 #series-btn {
   padding: 10px 15px;
@@ -185,6 +196,27 @@ a {
 #load-btn h4 {
   margin: 0;
   padding: 0;
+}
+
+.comic-title {
+  text-transform: uppercase;
+  color: #094564;
+}
+
+.comic-text {
+  color: #918f8f;
+}
+
+.green-table {
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #55ba59;
+  box-shadow: 0 4px 3px -3px black;
+}
+.green-table .bord-right {
+  border-right: 1px solid #3f8c43;
+  height: 50px;
 }
 
 #dc-gadgets {
