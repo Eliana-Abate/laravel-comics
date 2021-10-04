@@ -6,17 +6,17 @@
     <div class="container-stretch">
         <div class="row">
             <div class="col-60">
-                <h1></h1>
+                <h1>{{$comic['title']}}</h1>
                 <div class="row">
-                    <div></div>
+                    <div>{{$comic['price']}}</div>
                     <div></div>
                 </div>
-                <p></p>
+                <p>{{$comic['description']}}</p>
             </div>
             <div class="col-40">
-                <h6></h6>
+                <h4>ADVERTISEMENT</h4>
                 <figure>
-                    <img src="" alt="">
+                    <img src="{{asset('images/adv.jpg')}}" alt="adv">
                 </figure>
 
             </div>
