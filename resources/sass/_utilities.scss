@@ -20,6 +20,25 @@
     align-items: center;
 }
 
+.row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.row-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .special-row-2 {
     display: flex;
     justify-content: flex-start;
@@ -30,6 +49,19 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+.special-row-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: stretch;
+    color: #464646;
+}
+
+
+
+
+
 
 
 //Columns
@@ -77,6 +109,22 @@
 
 .mg-top-20 {
     margin-top: 20px;
+}
+
+.mg-right-10 {
+    margin-right: 10px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+} 
+
+.pb-70 {
+    padding-bottom: 70px;
+}  
+
+.py-50 {
+    padding: 50px 0;
 }
 
 .py-100 {
