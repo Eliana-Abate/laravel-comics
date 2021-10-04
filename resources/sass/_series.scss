@@ -26,6 +26,9 @@
             height: 59%;
             object-fit: cover;
             object-position: top;
+            &:hover {
+                box-shadow: 0 0 1em white;
+            }
         }
     }
     
