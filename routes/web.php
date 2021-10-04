@@ -21,4 +21,9 @@ Route::get('/comics', function () {
     return view('comics', ['comics' => $fumetti]);
 })->name('comics');
 
+Route::get('/comic_details', function () {
+    $fumetti = config('comics');
+    return view('comic_details', ['comics' => $fumetti]);
+})->name('comic_details');
+
 
