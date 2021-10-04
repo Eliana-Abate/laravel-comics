@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title') Comic Details @endsection
+@section('title') {{$comic['series']}} @endsection
 
 @section('content')
     <div class="container-stretch">
