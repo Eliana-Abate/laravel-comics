@@ -7,7 +7,7 @@
         <div class="series-grid">
             @foreach ($comics as $comic)
                 <section class="card">
-                    <a href="{{url("/comics/$loop->index")}}">
+                    <a href="{{route("comic", ['id'=>$loop->index])}}">
                         <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
                     </a>
                     <p>{{$comic['series']}}</p>
