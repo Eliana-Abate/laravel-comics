@@ -46,5 +46,67 @@
             </div>
         </div>  
     </div>
+
+    <div class="grey-box py-50">
+        <div class="container-stretch">
+            <div class="row">
+                <div class="col-50 mg-rigth-40">
+                    <h2>Talent</h2>
+                    <div class="grey-box flex">
+                        <div class="col-35">
+                            <span>Art by:</span>
+                        </div>
+
+                        <div class="g-box-text col-65">
+                            @foreach ($comic['artists'] as $item)
+                                <span>{{$item}} </span>
+                            @endforeach
+                        </div>
+                    </div>
+
+                    <div class="grey-box flex">
+                        <div class="col-35">
+                            <span>Written by:</span>
+                        </div>
+
+                        <div class="g-box-text col-65">
+                            @foreach ($comic['writers'] as $item)
+                                <span>{{$item}} </span>
+                            @endforeach
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="grey-hr"></div>
+
+                </div>
+                <div class="col-50 mg-left-40">
+                    <h2>Specs</h2>
+                    <div class="grey-box">
+                        <h5></h5>
+                        <p></p>
+
+                    </div>
+                    <div class="grey-box">
+                        <h5></h5>
+                        <p></p>
+
+                    </div>
+                    <div class="grey-box">
+                        <h5></h5>
+                        <p></p>
+
+                    </div>
+                    <div class="grey-box">
+                        <h5></h5>
+                        <p></p>
+
+                    </div>
+                    <div class="grey-hr"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     
 @endsection

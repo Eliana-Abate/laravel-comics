@@ -28,6 +28,10 @@ a {
   background-color: #1c1c1c;
 }
 
+.flex {
+  display: flex;
+}
+
 .row {
   display: flex;
   align-items: center;
@@ -110,8 +114,12 @@ a {
   margin-top: 20px;
 }
 
-.mg-right-10 {
-  margin-right: 10px;
+.mg-right-40 {
+  margin-right: 40px;
+}
+
+.mg-left-40 {
+  margin-left: 40px;
 }
 
 .pb-80 {
@@ -285,6 +293,24 @@ a {
   text-align: center;
   font-size: 0.8em;
   padding: 5px;
+}
+
+.grey-box {
+  background-color: #f6f6f6;
+  border-top: 2px solid #eaeaea;
+  color: #224963;
+  padding: 10px 0;
+}
+.grey-box span {
+  font-size: 0.8em;
+}
+.grey-box .g-box-text {
+  color: #80cce7;
+}
+.grey-box .grey-hr {
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
 }
 
 #dc-gadgets {

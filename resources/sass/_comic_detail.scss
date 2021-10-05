@@ -45,3 +45,21 @@
         }
     }   
 }
+
+.grey-box {
+    background-color: #f6f6f6;
+    border-top: 2px solid #eaeaea;
+    color: #224963;
+    padding: 10px 0;
+    span {
+        font-size: 0.8em;
+    }
+    .g-box-text {
+        color: #80cce7;
+    }
+    .grey-hr {
+        width: 100%;
+        height: 2px;
+        background-color: #eaeaea;
+    }
+}
