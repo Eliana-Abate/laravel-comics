@@ -48,8 +48,8 @@
     </div>
 
     <div class="grey-box py-50">
-        <div class="container-stretch">
-            <div class="row">
+        <div class="container-stretch pb-80">
+            <div class="flex">
                 <div class="col-50 mg-rigth-40">
                     <h2>Talent</h2>
                     <div class="grey-box flex">
@@ -82,25 +82,36 @@
                 </div>
                 <div class="col-50 mg-left-40">
                     <h2>Specs</h2>
-                    <div class="grey-box">
-                        <h5></h5>
-                        <p></p>
+                    <div class="grey-box flex">
+                        <div class="col-35">
+                            <span>Series:</span>
+                        </div>
 
+                        <div class="g-box-text col-65">
+                            <span class="up-text">{{$comic['series']}} </span>
+                        </div>
                     </div>
-                    <div class="grey-box">
-                        <h5></h5>
-                        <p></p>
 
+                    <div class="grey-box flex">
+                        <div class="col-35">
+                            <span>U.S. Price:</span>
+                        </div>
+
+                        <div class="g-box-text col-65">
+                            <span>{{$comic['price']}} </span>
+                        </div>
                     </div>
-                    <div class="grey-box">
-                        <h5></h5>
-                        <p></p>
 
-                    </div>
-                    <div class="grey-box">
-                        <h5></h5>
-                        <p></p>
+                    <div class="grey-box flex">
+                        <div class="col-35">
+                            <span>On Sale Date:</span>
+                        </div>
 
+                        <div class="g-box-text col-65">
+                            
+                            <span>{{$comic['sale_date']}} </span>
+                           
+                        </div>
                     </div>
                     <div class="grey-hr"></div>
 

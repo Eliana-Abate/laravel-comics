@@ -32,6 +32,10 @@ a {
   display: flex;
 }
 
+.up-text {
+  text-transform: uppercase;
+}
+
 .row {
   display: flex;
   align-items: center;
