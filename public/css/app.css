@@ -320,6 +320,9 @@ a {
   height: 2px;
   background-color: #eaeaea;
 }
+.grey-box .grey-text {
+  color: #464646;
+}
 
 #dc-gadgets {
   background-color: #0282F9;

@@ -98,7 +98,7 @@
                         </div>
 
                         <div class="g-box-text col-65">
-                            <span>{{$comic['price']}} </span>
+                            <span class="grey-text">{{$comic['price']}} </span>
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@
 
                         <div class="g-box-text col-65">
                             
-                            <span>{{$comic['sale_date']}} </span>
+                            <span class="grey-text">{{$comic['sale_date']}} </span>
                            
                         </div>
                     </div>
