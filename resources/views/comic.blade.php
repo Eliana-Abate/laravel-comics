@@ -58,9 +58,11 @@
                         </div>
 
                         <div class="g-box-text col-65">
-                            @foreach ($comic['artists'] as $item)
-                                <span>{{$item}} </span>
-                            @endforeach
+                            <span>
+                                @php
+                                    echo implode(', ', $comic['artists']);
+                                @endphp
+                            </span>
                         </div>
                     </div>
 
@@ -70,9 +72,12 @@
                         </div>
 
                         <div class="g-box-text col-65">
-                            @foreach ($comic['writers'] as $item)
-                                <span>{{$item}} </span>
-                            @endforeach
+                            <span>
+                                @php
+                                    echo implode(', ', $comic['writers']);
+                                @endphp
+                            </span>
+                            
                         </div>
                     </div>
                     
